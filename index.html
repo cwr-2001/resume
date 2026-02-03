@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weiran Chen - Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weiran Chen</h1>
+            <div class="contact-info">
+                <span><i class="fas fa-envelope"></i> chenweiran2001@mail.ustc.edu.cn</span>
+                <span><i class="fas fa-mobile-alt"></i> (+86) 19810952507</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>研究兴趣 (Research Interest)</h2>
+            <p>电子设计自动化 (EDA)、电路建模与数值仿真、物理设计、存内计算、芯片可靠性设计<br>
+            神经形态计算、脉冲神经网络 (SNN)、对抗攻击防御、图像去噪</p>
+        </section>
+
+        <section>
+            <h2>教育经历 (Education)</h2>
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">硕士：电子信息</div>
+                    <div class="location">中国, 合肥</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国科学技术大学, 微电子学院</div>
+                    <div class="date">2023年9月 - 2026年6月</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">本科：集成电路设计与集成系统</div>
+                    <div class="location">中国, 合肥</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">合肥工业大学, 微电子学院</div>
+                    <div class="date">2019年9月 - 2023年6月</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>荣誉奖项 (Awards & Honors)</h2>
+            <ul>
+                <li><strong>全国大学生数学竞赛二等奖</strong>, 合肥工业大学, 2022年</li>
+                <li><strong>学业一等奖学金</strong>, 中国科学技术大学, 2025年</li>
+                <li><strong>国家奖学金</strong>, 中国科学技术大学, 2025年</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>研究经历 (Research Experience)</h2>
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">神经网络对抗防御研究</div>
+                    <div class="date">2023.9 - 2024.5</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国科学技术大学</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖神经形态计算、神经网络鲁棒性及SNN对抗防御策略。</li>
+                    <li>提出轻量级端到端防御框架，融合图像净化与对抗检测模块，显著增强对梯度型攻击的鲁棒性。</li>
+                    <li>框架在多个主流数据集上均展现良好鲁棒性，训练效率与内存开销显著优化，可与其他防御方法兼容。</li>
+                </ul>
+            </div>
+            
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">大规模ReRAM交叉阵列非理想效应实时补偿研究</div>
+                    <div class="date">2024.7 - 2024.12</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国科学技术大学</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖存内计算, 电路建模和数值计算。</li>
+                    <li>基于稀疏LU分解提出高精度仿真框架, 高效处理IR-Drop、SAF、器件噪声等非理想效应。</li>
+                    <li>构建软硬件协同仿真与补偿系统框架, 实现ReRAM加速器中DNN的精准部署。</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">基于I-V非线性的大规模ReRAM交叉阵列快速仿真研究</div>
+                    <div class="date">2025.2 - 2025.6</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国科学技术大学</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖存内计算, 电路建模和数值计算。</li>
+                    <li>构建融合稀疏LU分解与迭代求解器的可扩展仿真框架, 精确建模和仿真基于I-V非线性的大规模ReRAM交叉阵列。</li>
+                    <li>在保持高精度的同时, 相较SPICE大幅提升仿真效率, 支持下一代ReRAM加速器的设计空间探索。</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">基于深度学习辅助的超大规模集成电路 PDN 求解</div>
+                    <div class="date">2025.8 - 2026.6</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国科学技术大学</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖静态 PDN 建模、深度学习近似计算与大规模稀疏线性系统求解。</li>
+                    <li>提出基于深度学习的两阶段求解方法：使用神经网络预测 PDN 电压降作为初始解, 再由传统迭代求解器对热点区域进行精化, 有效降低迭代复杂度并改善收敛特性。</li>
+                    <li>实现对多工艺节点的高效 PDN 分析，为超大规模集成电路的电源信号完整性评估提供快速数值工具。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>工作经历 (Work Experience)</h2>
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">DRAM设计中的分层布局与布线研究 (运筹优化算法工程师)</div>
+                    <div class="date">2024.10 - 2025.1</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">长鑫科技股份有限公司</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖DRAM设计方法学, floorplaning, placement和routing。</li>
+                    <li>针对大量大尺寸标准单元造成的placement阶段出现大量overlap问题, 提出“二次布局”策略: 首次布局后将其作为macro固定, 再执行二次布局进一步优化, 从而大幅降低overlap。</li>
+                    <li>显著提升版图设计效率与可制造性, 降低资源开销。</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="header-row">
+                    <div class="title">基于SLURM的昇腾NPU调度方法研究 (高性能计算工程师)</div>
+                    <div class="date">2025.7 - 2025.9</div>
+                </div>
+                <div class="sub-row">
+                    <div class="org">中国电信天翼云科技有限公司</div>
+                </div>
+                <ul>
+                    <li>研究方向涵盖云计算、高性能计算、异构资源调度。</li>
+                    <li>基于SLURM集群管理系统, 设计并实现适配国产昇腾NPU的作业调度与资源分配策略。</li>
+                    <li>通过动态负载均衡与资源优化, 提升集群整体性能与资源利用率。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>技能 (Skills)</h2>
+            <ul class="skills-list">
+                <li><strong>Programming:</strong> Python, C/C++, Matlab, LaTeX</li>
+                <li><strong>Languages:</strong> Chinese, English (CET-6)</li>
+                <li><strong>Software:</strong> Cadence-Innovus, Advanced Design System, Office</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>发表论文 (Publications)</h2>
+            <ul class="publications">
+                <li>
+                    <strong>Real-Time Compensation Framework for Large-Scale ReRAM-Based Sparse LU Factorization</strong><br>
+                    <strong>Weiran Chen</strong>, Zaitian Chen, Bei Yu, Song Chen, Yi Kang and Qi Xu<br>
+                    <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD)</em>, 2025. <strong>CCF: A</strong>
+                </li>
+                <li>
+                    <strong>Scalable High-Fidelity Solver for Large-Scale ReRAM Crossbar Arrays Under I-V Nonlinearity</strong><br>
+                    <strong>Weiran Chen</strong>, Qi Xu, Song Chen, Yi Kang and Bei Yu<br>
+                    <em>ACM Transactions on Design Automation of Electronic Systems (ACM TODAES)</em>, 2025. <strong>CCF: B</strong>
+                </li>
+                <li>
+                    <strong>Robust and Efficient Adversarial Defense in SNNs via Image Purification and Joint Detection</strong><br>
+                    <strong>Weiran Chen</strong> and Qi Xu<br>
+                    <em>IEEE International Conference on Acoustics, Speech, and Signal Processing (IEEE ICASSP)</em>, 2025. <strong>CCF: B</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>科研项目 (Research Projects)</h2>
+            <ul>
+                <li>国家重点研发计划课题--基于DRAM的存算一体架构</li>
+                <li>中科院战略先导B专项项目--存算一体电路与计算架构</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
